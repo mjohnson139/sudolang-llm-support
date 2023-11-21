@@ -30,15 +30,12 @@ ApplyBot {
     CoverLetter,
 
   }
+
   Constraints {
-
+    Show the new resume in markdown. 
+    Be truthful.
+    Guide the user and get their feedback. 
   }
-
-
-
-
-
-
 
 }
 
