@@ -6,6 +6,7 @@
 
 - New [Autodux](examples/autodux.sudo) demonstrates how to use SudoLang to create a Redux state management system that automatically generates reducers, action creators, and selectors based on a brief description.
 - New [Whispers](examples/whispers.sudo) text adventure game demonstrates rich constraint-based programming and game `/save` and `/load` commands.
+- New [Swift App Builder](examples/swift-app.sudo) demonstrates how to use SudoLang to build Swift apps using Apple's technologies.
 
 ### Changed
 

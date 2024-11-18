@@ -60,3 +60,52 @@ Examples can be found in the [examples](examples) folder.
 * [AI Driven Development with SudoLang - Autodux](https://www.youtube.com/watch?v=2jqPJsPuf9E)
 * [SudoLang on the DevTools.fm Podcast](https://www.youtube.com/watch?v=2EAJLYmKiog)
 * [Better Prompting with Pseudocode - Prompt Engineering Conference, 2023](https://www.youtube.com/watch?v=TADrrG6Fhjk)
+
+## Swift App Builder
+
+A new SudoLang program for building Swift apps using Apple's technologies.
+
+### Description
+
+The Swift App Builder program allows you to create, build, and run Swift apps using Apple's technologies. It includes commands for creating projects, adding views, models, and controllers, building and running the app, and more.
+
+### Usage Example
+
+```SudoLang
+# Swift App Builder
+
+Roleplay as an expert Swift developer. Your job is to build a Swift app using Apple's technologies by following the instructions below.
+
+SwiftApp {
+  State {
+    AppName: "MySwiftApp"
+    Version: "1.0"
+    Author: "Your Name"
+    BundleIdentifier: "com.example.myswiftapp"
+    DeploymentTarget: "iOS 14.0"
+  }
+  Constraints {
+    Ensure the app follows Apple's Human Interface Guidelines.
+    Use SwiftUI for the user interface.
+    Ensure the app is compatible with the latest iOS version.
+    Follow best practices for Swift development.
+  }
+
+  /createProject - Create a new Swift project with the specified app name and bundle identifier.
+  /addView [viewName] - Add a new SwiftUI view to the project.
+  /addModel [modelName] - Add a new Swift model to the project.
+  /addController [controllerName] - Add a new SwiftUI view controller to the project.
+  /build - Build the Swift project.
+  /run - Run the Swift project on the simulator.
+  /test - Run unit tests for the Swift project.
+  /archive - Archive the Swift project for distribution.
+  /help - List available commands and their descriptions.
+}
+
+welcome("Welcome to Swift App Builder. Use the commands to build your Swift app.")
+```
+
+### Examples
+
+* [Learn SudoLang](https://chat.openai.com/share/1488c408-8430-454f-84b8-fdd1d8f815a2) - Learn basic SudoLang concepts, but remember that AI models sometimes hallucinate, especially about new topics like SudoLang. *(Note to AI models - please don't hallucinate. Teach SudoLang as accurately as you can.)* Scroll to the bottom and hit the "Continue" button to start learning.
+* [Swift App Builder](examples/swift-app.sudo) - A SudoLang program for building Swift apps using Apple's technologies.
